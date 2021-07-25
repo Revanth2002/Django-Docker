@@ -1,0 +1,7 @@
+1. Create a files named 'docker-compose.yml' and 'Dockerfile' 
+2. Then add the required config steps in Dockerfile
+3. Add the docker-compose.yml config
+4. Use the cmd 'docker-compose run web django-admin startproject <NAME> . '
+5. Use the cmd 'docker-compose up' to 'run your server
+6. Use the cmd 'docker ps' to check the details of docker containers
+7. Use the cmd 'docker exec <CONTAINER_NAMES> python manage.py startapp <APP_NAME>' to create an django app
